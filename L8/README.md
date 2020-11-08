@@ -1,3 +1,3 @@
 # README
 
-Labs from third semester
+Lab 8 - first use of Ruby on Rails
