@@ -1,2 +1,2 @@
 # BMSTU-Ruby
-Labs from third semester
+Ruby labs from the second and third modules of third semester
