@@ -1,0 +1,14 @@
+res_field = document.getElementById("result")
+str = "<p>Greatest common factor: <%= @resultgcf %></p>"
+str += "<p>Least common multiple: <%= @resultlcm %></p>"
+res_field.innerHTML = str
+table = "</br><table cellspacing='10'><tr><td>States of the first number:</td>"
+<% @stepsf.each do |elem| %>
+table += "<td><%= elem %></td>"
+<% end %>
+table += "</tr><tr><td>States of the second number:</td>"
+<% @stepss.each do |elem| %>
+table += "<td><%= elem %></td>"
+<% end %>
+table += "</tr></table>"
+res_field.innerHTML += table

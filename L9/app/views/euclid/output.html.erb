@@ -1,0 +1,22 @@
+<h3> Output data </h3>
+<h4> Greatest common factor </h4>
+<p> <%= @resultgcf %></p>
+<h4> Least common multiple </h4>
+<p> <%= @resultlcm %></p>
+<table>
+  <tr>
+    <td>States of first number</td>
+    <% @stepsf.each do |elem| %>
+    <td><%= elem %></td>
+    <% end %>
+  </tr>
+  <tr>
+    <td>States of second number</td>
+    <% @stepss.each do |elem| %>
+      <td><%= elem %></td>
+    <% end %>
+  </tr>
+</table><br/>
+<%= form_tag("/euclid/index", :method => "get") do %>
+  <%= submit_tag("Return to start page") %>
+<% end %>
