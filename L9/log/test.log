@@ -606,6 +606,7 @@ Processing by EuclidController#output as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2223)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+<<<<<<< HEAD
   [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
   [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
@@ -1152,3 +1153,5 @@ Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 120
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
 Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 12021)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+=======
+>>>>>>> 55640a88fecbebb490190cd45f4024533c89d36d
