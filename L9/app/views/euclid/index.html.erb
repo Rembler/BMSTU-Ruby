@@ -1,0 +1,10 @@
+<h3> Input data </h3>
+<%= form_tag("/euclid/output.js", :method => "get", :remote => true) do %>
+  <%= label_tag("First number:") %>
+  <%= text_field_tag(:num1) %> <br/>
+  <%= label_tag("Second number:") %>
+  <%= text_field_tag(:num2) %> <br/>
+  <%= submit_tag("Calc result") %>
+<% end %>
+<div id="result">
+</div>

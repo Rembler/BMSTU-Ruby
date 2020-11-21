@@ -4,6 +4,7 @@ class EuclidController < ApplicationController
   end
 
   def output
+    @code = true
     fnum = params[:num1]
     snum = params[:num2]
     @stepsf = []
@@ -25,8 +26,7 @@ class EuclidController < ApplicationController
       @resultgcf = fnumw + snumw
       @resultlcm = (fnum.to_i * snum.to_i) / @resultgcf
     else
-      @resultgcf = 'Incorrect data'
-      @resultlcm = 'Incorrect data'
+      @code = false
     end
   end
 end

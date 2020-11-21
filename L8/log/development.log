@@ -1634,3 +1634,21 @@ Processing by EuclidController#output as HTML
 Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 3836)
 
 
+Started GET "/" for 127.0.0.1 at 2020-11-22 01:00:19 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 7538)
+
+
+Started GET "/euclid/output?num1=140&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-22 01:00:27 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"140", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.4ms | Allocations: 379)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3845)
+
+

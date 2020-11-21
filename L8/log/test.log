@@ -606,3 +606,1627 @@ Processing by EuclidController#output as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2223)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=144000&num2=49152" for 127.0.0.1 at 2020-11-22 00:42:00 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"144000", "num2"=>"49152"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 543)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 11351)
+Started GET "/euclid/output?num1=430080&num2=294912" for 127.0.0.1 at 2020-11-22 00:42:00 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"430080", "num2"=>"294912"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 100)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2224)
+Started GET "/euclid/output?num1=4478976&num2=2359296" for 127.0.0.1 at 2020-11-22 00:42:00 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4478976", "num2"=>"2359296"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=126&num2=48" for 127.0.0.1 at 2020-11-22 00:42:00 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"126", "num2"=>"48"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2226)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=1512&num2=1152" for 127.0.0.1 at 2020-11-22 00:42:27 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1512", "num2"=>"1152"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 11265)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=4&num2=4" for 127.0.0.1 at 2020-11-22 00:43:52 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4", "num2"=>"4"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 527)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 11287)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=3584&num2=3072" for 127.0.0.1 at 2020-11-22 00:43:55 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"3584", "num2"=>"3072"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 531)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 11321)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=5376&num2=3072" for 127.0.0.1 at 2020-11-22 00:43:56 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5376", "num2"=>"3072"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 11355)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=6&num2=4" for 127.0.0.1 at 2020-11-22 00:51:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"6", "num2"=>"4"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 531)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 11376)
+Started GET "/euclid/output?num1=98&num2=72" for 127.0.0.1 at 2020-11-22 00:51:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"98", "num2"=>"72"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2228)
+Started GET "/euclid/output?num1=75&num2=32" for 127.0.0.1 at 2020-11-22 00:51:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"75", "num2"=>"32"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2222)
+Started GET "/euclid/output?num1=2&num2=2" for 127.0.0.1 at 2020-11-22 00:51:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2", "num2"=>"2"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2210)
+Started GET "/euclid/output?num1=7&num2=6" for 127.0.0.1 at 2020-11-22 00:51:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"7", "num2"=>"6"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2214)
+Started GET "/euclid/output?num1=1575&num2=384" for 127.0.0.1 at 2020-11-22 00:51:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1575", "num2"=>"384"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2226)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=441&num2=144" for 127.0.0.1 at 2020-11-22 00:52:05 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"441", "num2"=>"144"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 531)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 11411)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=42&num2=24" for 127.0.0.1 at 2020-11-22 00:53:34 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"42", "num2"=>"24"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 11440)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=2075150&num2=691200" for 127.0.0.1 at 2020-11-22 00:57:24 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2075150", "num2"=>"691200"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 543)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 11478)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=112&num2=96" for 127.0.0.1 at 2020-11-22 01:01:40 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"112", "num2"=>"96"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 531)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 11496)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=673750&num2=184320" for 127.0.0.1 at 2020-11-22 01:01:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"673750", "num2"=>"184320"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 563)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 11558)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=67760&num2=170352" for 127.0.0.1 at 2020-11-22 01:04:38 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"67760", "num2"=>"170352"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 551)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 11576)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=2562175&num2=12595401" for 127.0.0.1 at 2020-11-22 01:05:22 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2562175", "num2"=>"12595401"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 567)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 11622)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=7&num2=9" for 127.0.0.1 at 2020-11-22 01:05:25 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"7", "num2"=>"9"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 11620)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=7&num2=9" for 127.0.0.1 at 2020-11-22 01:05:33 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"7", "num2"=>"9"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 11650)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=11&num2=13" for 127.0.0.1 at 2020-11-22 01:08:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"11", "num2"=>"13"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 11685)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=1225&num2=3969" for 127.0.0.1 at 2020-11-22 01:08:59 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1225", "num2"=>"3969"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 11710)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=18301250&num2=137149922" for 127.0.0.1 at 2020-11-22 01:11:52 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"18301250", "num2"=>"137149922"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 579)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 11789)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=8&num2=8" for 127.0.0.1 at 2020-11-22 01:11:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"8", "num2"=>"8"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 527)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 11762)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=16105100&num2=72773428" for 127.0.0.1 at 2020-11-22 01:11:56 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"16105100", "num2"=>"72773428"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 591)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 11866)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=1210&num2=2366" for 127.0.0.1 at 2020-11-22 01:11:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1210", "num2"=>"2366"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.2ms | Allocations: 547)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 11842)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-11-22 01:11:59 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 11860)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=55&num2=91" for 127.0.0.1 at 2020-11-22 01:12:01 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55", "num2"=>"91"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 547)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 11907)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=1171280&num2=3198832" for 127.0.0.1 at 2020-11-22 01:12:02 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1171280", "num2"=>"3198832"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 575)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 11960)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/euclid/output?num1=968&num2=1352" for 127.0.0.1 at 2020-11-22 01:12:04 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"968", "num2"=>"1352"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 547)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 11967)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=550&num2=1274" for 127.0.0.1 at 2020-11-22 01:12:07 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"550", "num2"=>"1274"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 547)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 11997)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=11&num2=13" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"11", "num2"=>"13"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 12015)
+Started GET "/euclid/output?num1=53240&num2=123032" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"53240", "num2"=>"123032"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2260)
+Started GET "/euclid/output?num1=50&num2=98" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"50", "num2"=>"98"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=1210&num2=2366" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1210", "num2"=>"2366"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=6250&num2=33614" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"6250", "num2"=>"33614"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2238)
+Started GET "/euclid/output?num1=5324&num2=8788" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5324", "num2"=>"8788"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=1100&num2=2548" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1100", "num2"=>"2548"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=3327500&num2=21099988" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"3327500", "num2"=>"21099988"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2266)
+Started GET "/euclid/output?num1=20&num2=28" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"20", "num2"=>"28"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2219)
+Started GET "/euclid/output?num1=665500&num2=3014284" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"665500", "num2"=>"3014284"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=2662&num2=4394" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2662", "num2"=>"4394"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=110&num2=182" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"110", "num2"=>"182"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=302500&num2=1623076" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"302500", "num2"=>"1623076"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2266)
+Started GET "/euclid/output?num1=220&num2=364" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"220", "num2"=>"364"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=550&num2=1274" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"550", "num2"=>"1274"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=53240&num2=123032" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"53240", "num2"=>"123032"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2258)
+Started GET "/euclid/output?num1=605&num2=1183" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"605", "num2"=>"1183"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=1210&num2=2366" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1210", "num2"=>"2366"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2235)
+Started GET "/euclid/output?num1=1210&num2=2366" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1210", "num2"=>"2366"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=3025&num2=8281" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"3025", "num2"=>"8281"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2246)
+Started GET "/euclid/output?num1=133100&num2=430612" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"133100", "num2"=>"430612"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=6050&num2=16562" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"6050", "num2"=>"16562"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2246)
+Started GET "/euclid/output?num1=40262750&num2=254706998" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"40262750", "num2"=>"254706998"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2254)
+Started GET "/euclid/output?num1=1210&num2=2366" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1210", "num2"=>"2366"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2235)
+Started GET "/euclid/output?num1=12500&num2=67228" for 127.0.0.1 at 2020-11-22 01:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"12500", "num2"=>"67228"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2238)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=40&num2=56" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"40", "num2"=>"56"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 12040)
+Started GET "/euclid/output?num1=55000&num2=249704" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55000", "num2"=>"249704"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2252)
+Started GET "/euclid/output?num1=22000&num2=71344" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"22000", "num2"=>"71344"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2238)
+Started GET "/euclid/output?num1=378125&num2=2840383" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"378125", "num2"=>"2840383"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2250)
+Started GET "/euclid/output?num1=2&num2=2" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2", "num2"=>"2"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2210)
+Started GET "/euclid/output?num1=44&num2=52" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"44", "num2"=>"52"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=212960&num2=492128" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"212960", "num2"=>"492128"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2258)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=2&num2=2" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2", "num2"=>"2"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2211)
+Started GET "/euclid/output?num1=242000&num2=927472" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"242000", "num2"=>"927472"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=40262750&num2=254706998" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"40262750", "num2"=>"254706998"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2254)
+Started GET "/euclid/output?num1=30250&num2=115934" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"30250", "num2"=>"115934"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=266200&num2=861224" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"266200", "num2"=>"861224"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=55&num2=91" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55", "num2"=>"91"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=585640&num2=1599416" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"585640", "num2"=>"1599416"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2258)
+Started GET "/euclid/output?num1=9680&num2=18928" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"9680", "num2"=>"18928"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=12100&num2=33124" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"12100", "num2"=>"33124"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 4.3ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2255)
+Started GET "/euclid/output?num1=605&num2=1183" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"605", "num2"=>"1183"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=55&num2=91" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55", "num2"=>"91"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=275&num2=637" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"275", "num2"=>"637"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=1760&num2=2912" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1760", "num2"=>"2912"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=4840&num2=9464" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4840", "num2"=>"9464"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2226)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=2662&num2=4394" for 127.0.0.1 at 2020-11-22 01:13:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2662", "num2"=>"4394"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2242)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+-----------------------------------------------------
+Started GET "/euclid/output?num1=8410&num2=13454" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"8410", "num2"=>"13454"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 551)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 12086)
+Started GET "/euclid/output?num1=55&num2=91" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55", "num2"=>"91"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2232)
+Started GET "/euclid/output?num1=172405&num2=289261" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"172405", "num2"=>"289261"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2250)
+Started GET "/euclid/output?num1=439977560&num2=932577464" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"439977560", "num2"=>"932577464"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2278)
+Started GET "/euclid/output?num1=15171640&num2=30083144" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"15171640", "num2"=>"30083144"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2258)
+Started GET "/euclid/output?num1=20&num2=28" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"20", "num2"=>"28"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=41&num2=43" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"41", "num2"=>"43"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=183576844&num2=363146524" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"183576844", "num2"=>"363146524"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2270)
+Started GET "/euclid/output?num1=279676375&num2=1393352779" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"279676375", "num2"=>"1393352779"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 159)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2282)
+Started GET "/euclid/output?num1=861981036725&num2=2593829709751" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"861981036725", "num2"=>"2593829709751"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2318)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=24805&num2=50869" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"24805", "num2"=>"50869"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=82&num2=86" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"82", "num2"=>"86"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=1240250&num2=4985162" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1240250", "num2"=>"4985162"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2238)
+Started GET "/euclid/output?num1=247889883725&num2=877643823511" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"247889883725", "num2"=>"877643823511"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2307)
+Started GET "/euclid/output?num1=58&num2=62" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"58", "num2"=>"62"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=48749&num2=57319" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"48749", "num2"=>"57319"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 2254)
+Started GET "/euclid/output?num1=22&num2=26" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"22", "num2"=>"26"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2219)
+Started GET "/euclid/output?num1=483687578&num2=833074346" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"483687578", "num2"=>"833074346"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2306)
+Started GET "/euclid/output?num1=4&num2=4" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4", "num2"=>"4"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2210)
+Started GET "/euclid/output?num1=1516262&num2=2067182" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1516262", "num2"=>"2067182"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2254)
+Started GET "/euclid/output?num1=10&num2=14" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"10", "num2"=>"14"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=44&num2=52" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"44", "num2"=>"52"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2219)
+Started GET "/euclid/output?num1=19844&num2=29068" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"19844", "num2"=>"29068"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2250)
+Started GET "/euclid/output?num1=1189&num2=1333" for 127.0.0.1 at 2020-11-22 01:13:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1189", "num2"=>"1333"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2230)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=1681&num2=1849" for 127.0.0.1 at 2020-11-22 01:13:50 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1681", "num2"=>"1849"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 12105)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2220)
+Started GET "/euclid/output?num1=2198579900&num2=6280098916" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2198579900", "num2"=>"6280098916"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2290)
+Started GET "/euclid/output?num1=2&num2=2" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2", "num2"=>"2"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2210)
+Started GET "/euclid/output?num1=10&num2=14" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"10", "num2"=>"14"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=758131&num2=1033591" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"758131", "num2"=>"1033591"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2254)
+Started GET "/euclid/output?num1=3280&num2=4816" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"3280", "num2"=>"4816"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2234)
+Started GET "/euclid/output?num1=25&num2=49" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"25", "num2"=>"49"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=289812805&num2=534843589" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"289812805", "num2"=>"534843589"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 156)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2279)
+Started GET "/euclid/output?num1=2255&num2=3913" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2255", "num2"=>"3913"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=82&num2=86" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"82", "num2"=>"86"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=184910&num2=336518" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"184910", "num2"=>"336518"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2258)
+Started GET "/euclid/output?num1=41&num2=43" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"41", "num2"=>"43"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2218)
+Started GET "/euclid/output?num1=2301904&num2=3604432" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2301904", "num2"=>"3604432"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2258)
+Started GET "/euclid/output?num1=45100&num2=109564" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"45100", "num2"=>"109564"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2242)
+Started GET "/euclid/output?num1=4961&num2=7267" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4961", "num2"=>"7267"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2250)
+Started GET "/euclid/output?num1=4474822&num2=8124506" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4474822", "num2"=>"8124506"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 4.4ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 2275)
+Started GET "/euclid/output?num1=1189&num2=1333" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1189", "num2"=>"1333"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=2378&num2=2666" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2378", "num2"=>"2666"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2230)
+Started GET "/euclid/output?num1=79750&num2=276458" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"79750", "num2"=>"276458"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2234)
+Started GET "/euclid/output?num1=21998878&num2=33306338" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"21998878", "num2"=>"33306338"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2278)
+Started GET "/euclid/output?num1=13405975&num2=36512203" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"13405975", "num2"=>"36512203"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2278)
+Started GET "/euclid/output?num1=31651180&num2=82000828" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"31651180", "num2"=>"82000828"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 139)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2270)
+Started GET "/euclid/output?num1=81947069&num2=105982831" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"81947069", "num2"=>"105982831"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2278)
+Started GET "/euclid/output?num1=5945&num2=9331" for 127.0.0.1 at 2020-11-22 01:13:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5945", "num2"=>"9331"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2246)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

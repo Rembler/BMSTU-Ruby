@@ -1,0 +1,2215 @@
+Started GET "/" for 127.0.0.1 at 2020-11-04 14:43:18 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/rembler/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/rembler/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 407)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2341)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 14:51:51 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InputsController#index as HTML
+  Rendering inputs/index.html.erb within layouts/application
+  Rendered inputs/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 190)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/rembler/L8/railslab/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 1249ms
+Built at: 2020-11-04 2:51:53 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2186ms (Views: 2182.9ms | ActiveRecord: 0.0ms | Allocations: 18206)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 14:57:42 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by InputsController#index as HTML
+  Rendering inputs/index.html.erb within layouts/application
+  Rendered inputs/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 7057)
+
+
+Started GET "/output" for 127.0.0.1 at 2020-11-04 14:57:55 +0300
+Processing by InputsController#output as HTML
+  Rendering inputs/output.html.erb within layouts/application
+  Rendered inputs/output.html.erb within layouts/application (Duration: 1.2ms | Allocations: 76)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3498)
+
+
+Started GET "/output" for 127.0.0.1 at 2020-11-04 14:58:19 +0300
+Processing by InputsController#output as HTML
+  Rendering inputs/output.html.erb within layouts/application
+  Rendered inputs/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 4259)
+
+
+Started GET "/output" for 127.0.0.1 at 2020-11-04 14:59:12 +0300
+Processing by InputsController#output as HTML
+  Rendering inputs/output.html.erb within layouts/application
+  Rendered inputs/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 4291)
+
+
+Started GET "/output" for 127.0.0.1 at 2020-11-04 14:59:13 +0300
+Processing by InputsController#output as HTML
+  Rendering inputs/output.html.erb within layouts/application
+  Rendered inputs/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3291)
+
+
+Started GET "/output" for 127.0.0.1 at 2020-11-04 14:59:20 +0300
+Processing by InputsController#output as HTML
+  Rendering inputs/output.html.erb within layouts/application
+  Rendered inputs/output.html.erb within layouts/application (Duration: 0.5ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4293)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-11-04 14:59:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-04 14:59:53 +0300
+Processing by InputsController#index as HTML
+  Rendering inputs/index.html.erb within layouts/application
+  Rendered inputs/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3530)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 15:29:30 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant InputsController):
+  
+actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-04 15:29:53 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 16288)
+
+
+Started GET "/output" for 127.0.0.1 at 2020-11-04 15:29:59 +0300
+Processing by EuclidController#output as HTML
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3530)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:30:08 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/output"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-11-04 15:49:54 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-04 15:50:01 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 6632)
+
+
+Started GET "/euclid/output?num1=15&num2=10&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:50:08 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/output"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/euclid/output?num1=15&num2=10&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:51:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"15", "num2"=>"10", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3647)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-04 15:52:02 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3521)
+
+
+Started GET "/euclid/output?num1=345&num2=63&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:52:12 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"345", "num2"=>"63", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3311)
+
+
+Started GET "/euclid/output?num1=345&num2=63&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:53:53 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"345", "num2"=>"63", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3324)
+
+
+Started GET "/euclid/output?num1=18&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:54:06 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"18", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3310)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-11-04 15:55:15 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-11-04 15:55:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-11-04 15:55:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-11-04 15:55:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-11-04 15:55:28 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/euclid/output?num1=18&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:55:32 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"18", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3487)
+
+
+Started GET "/euclid/output?num1=18&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:55:46 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"18", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3471)
+
+
+Started GET "/euclid/output?num1=18c&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:55:50 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"18c", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3328)
+
+
+Started GET "/euclid/output?num1=dfg&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 15:55:56 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"dfg", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3310)
+
+
+Started GET "/euclid/output?num1=dfg&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:03:39 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"dfg", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3433)
+
+
+Started GET "/euclid/output?num1=dfg&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:03:48 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"dfg", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3438)
+
+
+Started GET "/euclid/output?num1=15&num2=60&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:07:13 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"15", "num2"=>"60", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 216)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 4380)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:07:15 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 404)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3832)
+
+
+Started GET "/euclid/output?num1=5463&num2=235&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:07:20 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5463", "num2"=>"235", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3375)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:07:21 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3494)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:07:23 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3375)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:07:24 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3514)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:07:26 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3375)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:07:27 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3510)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:08:50 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.6ms | Allocations: 210)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 4419)
+
+
+Started GET "/euclid/euclid?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:08:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/euclid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/euclid/euclid?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:09:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/euclid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/euclid/euclid?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:09:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/euclid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/euclid/euclid?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:09:18 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/euclid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/euclid/euclid?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:09:20 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/euclid/euclid"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-11-04 16:09:43 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 404)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 4524)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:09:46 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 210)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3643)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:09:47 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 3507)
+
+
+Started GET "/euclid/output?num1=234+352&num2=634&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:19:20 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/rembler/L8/railslab/app/controllers/euclid_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/euclid_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/euclid_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/euclid_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/euclid/output?num1=234+352&num2=634&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:20:02 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"234 352", "num2"=>"634", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3507)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:20:04 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3510)
+
+
+Started GET "/euclid/output?num1=432+2332&num2=32&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:20:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"432 2332", "num2"=>"32", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3370)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:20:26 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3861)
+
+
+Started GET "/euclid/output?num1=345+322&num2=4352&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:20:31 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"345 322", "num2"=>"4352", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3375)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:24:48 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 4824)
+
+
+Started GET "/euclid/output?num1=dsf&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:24:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"dsf", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3384)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:24:53 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3514)
+
+
+Started GET "/euclid/output?num1=34&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:24:55 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"34", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3364)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:24:57 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3510)
+
+
+Started GET "/euclid/output?num1=sgjw&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:25:00 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"sgjw", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3394)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:29:24 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 4831)
+
+
+Started GET "/euclid/output?num1=124&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:29:27 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"124", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3362)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:29:29 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3500)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:29:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/euclid/output?num1=35&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:29:55 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3376)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:29:56 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3505)
+
+
+Started GET "/euclid/output?num1=sdj&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:29:59 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"sdj", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3382)
+
+
+Started GET "/euclid/output?num1=sdj&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:30:37 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"sdj", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 4691)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:30:38 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3504)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:31:06 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7359)
+
+
+Started GET "/euclid/output?num1=sdf&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:31:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"sdf", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 3654)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:31:11 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3526)
+
+
+Started GET "/euclid/output?num1=41&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:31:15 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"41", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3389)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:31:16 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 3517)
+
+
+Started GET "/euclid/output?num1=33sdf&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:31:20 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"33sdf", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3382)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:31:21 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3512)
+
+
+Started GET "/euclid/output?num1=324+324&num2=&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:31:25 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"324 324", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3379)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:31:26 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3514)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:35:00 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3643)
+
+
+Started GET "/euclid/output?num1=34&num2=jh&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:35:07 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"34", "num2"=>"jh", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 72)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3384)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:35:08 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3514)
+
+
+Started GET "/euclid/output?num1=34&num2=68&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:35:14 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"34", "num2"=>"68", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3372)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:35:16 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3512)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:39:56 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 409)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4574)
+
+
+Started GET "/euclid/output?num1=542&num2=32&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:40:02 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"542", "num2"=>"32", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3658)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:40:06 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3507)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:40:31 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 404)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4587)
+
+
+Started GET "/euclid/output?num1=55&num2=35&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:40:38 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55", "num2"=>"35", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 228)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3680)
+
+
+Started GET "/euclid/output?num1=55&num2=35&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:41:03 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"55", "num2"=>"35", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3511)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:41:06 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3500)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:41:08 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 3510)
+
+
+Started GET "/euclid/output?num1=100&num2=50&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:41:22 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"100", "num2"=>"50", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 76)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3383)
+
+
+Started GET "/euclid/output?num1=100&num2=50&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:42:04 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"100", "num2"=>"50", "commit"=>"Calc result"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 550)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/euclid_controller.rb:20:in `*'
+app/controllers/euclid_controller.rb:20:in `output'
+Started GET "/euclid/output?num1=100&num2=50&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:42:30 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"100", "num2"=>"50", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3594)
+
+
+Started GET "/euclid/output?num1=234&num2=65&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:42:41 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"234", "num2"=>"65", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3390)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:42:43 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3517)
+
+
+Started GET "/euclid/output?num1=dsgj&num2=r6&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:42:48 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"dsgj", "num2"=>"r6", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3377)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:42:50 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3504)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 16:58:04 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 407)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 4562)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:58:13 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 360)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3807)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 16:59:59 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3512)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:01:30 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3512)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:01:49 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3552)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:05 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.5ms | Allocations: 370)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4584)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:05 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3415)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:21 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 370)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4585)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:21 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3399)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:22 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3423)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:22 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3415)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:24 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3401)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:02:37 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 368)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4592)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:03:32 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.5ms | Allocations: 369)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4586)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:03:34 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3413)
+
+
+Started GET "/euclid/output?num1=354&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:03:37 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"354", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3415)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:03:57 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 7547)
+
+
+Started GET "/euclid/output?num1=453&num2=923&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:04:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"453", "num2"=>"923", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 3850)
+
+
+Started GET "/euclid/output?num1=453&num2=923&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:04:15 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"453", "num2"=>"923", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.2ms | Allocations: 377)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4606)
+
+
+Started GET "/euclid/output?num1=2345&num2=586&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:05:04 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2345", "num2"=>"586", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 3399)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:05:20 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 408)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started GET "/euclid/output?num1=100&num2=fdg&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:05:26 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"100", "num2"=>"fdg", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3392)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:05:34 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3508)
+
+
+Started GET "/euclid/output?num1=200&num2=50&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:05:39 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"200", "num2"=>"50", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3393)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:31:36 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 7335)
+
+
+Started GET "/euclid/output?num1=352&num2=gdsl&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:31:43 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"352", "num2"=>"gdsl", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 356)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 3831)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:31:44 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 3506)
+
+
+Started GET "/euclid/output?num1=325930&num2=3259+23&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:31:49 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"325930", "num2"=>"3259 23", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3394)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:31:52 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 3521)
+
+
+Started GET "/euclid/output?num1=2359&num2=6324&commit=Calc+result" for 127.0.0.1 at 2020-11-04 17:31:57 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2359", "num2"=>"6324", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3445)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-04 17:32:06 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3516)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-11-04 16:41:14.311802"], ["updated_at", "2020-11-04 16:41:14.311802"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2020-11-04 19:56:45 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 7250)
+
+
+Started GET "/euclid/output?num1=25&num2=35&commit=Calc+result" for 127.0.0.1 at 2020-11-04 19:56:51 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"25", "num2"=>"35", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 375)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 3836)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-16 21:36:43 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 7274)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:36:50 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 1.4ms | Allocations: 88)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1667)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:36:56 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 7)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 528)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:36:57 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 531)
+
+
+Started GET "/euclid/output.js?num1=70&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:37:00 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"70", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 7)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 527)
+
+
+Started GET "/euclid/output.js?num1=70&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:37:01 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"70", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 527)
+
+
+Started GET "/euclid/output.js?num1=70&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:37:01 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"70", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 529)
+
+
+Started GET "/euclid/output.js?num1=70&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:37:01 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"70", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=70&num2=35&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:37:09 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"70", "num2"=>"35", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=36&num2=81&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:50:43 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"36", "num2"=>"81", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 519)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:53:34 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.2ms | Allocations: 94)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1807)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:53:36 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 520)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:53:37 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 533)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:54:02 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.6ms | Allocations: 92)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1803)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:54:05 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 518)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:58:31 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1825)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:58:44 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 528)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:58:48 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:59:18 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.2ms | Allocations: 107)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1820)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:59:31 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1817)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:59:40 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 1807)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:59:41 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 530)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:59:42 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 533)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 21:59:44 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:00:04 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:01:58 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.3ms | Allocations: 127)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1827)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:01:59 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 520)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-16 22:02:00 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 419)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4470)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:02:02 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 528)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:02:04 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:02:08 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 527)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:02:16 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.6ms | Allocations: 125)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1826)
+
+
+Started GET "/euclid/output.js?num1=36&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:02:20 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"36", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 520)
+
+
+Started GET "/euclid/output.js?num1=125&num2=71&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:05:44 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"125", "num2"=>"71", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/euclid/output.js?num1=125&num2=71&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:07:44 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"125", "num2"=>"71", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.6ms | Allocations: 127)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1832)
+
+
+Started GET "/euclid/output.js?num1=125&num2=71&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:07:45 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"125", "num2"=>"71", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 520)
+
+
+Started GET "/euclid/output.js?num1=125&num2=45&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:07:53 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"125", "num2"=>"45", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 523)
+
+
+Started GET "/euclid/output.js?num1=125&num2=45&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:08:03 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"125", "num2"=>"45", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.7ms | Allocations: 129)
+Completed 200 OK in 11ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1839)
+
+
+Started GET "/euclid/output.js?num1=125&num2=45&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:14:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"125", "num2"=>"45", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.4ms | Allocations: 257)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1981)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:15:38 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.6ms | Allocations: 249)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1964)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:16:13 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.7ms | Allocations: 253)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1956)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:16:21 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.8ms | Allocations: 252)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1955)
+
+
+Started GET "/euclid/output.js?num1=35k&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:17:20 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35k", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 1.0ms | Allocations: 350)
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2845)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:17:24 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.0ms | Allocations: 28)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 559)
+
+
+Started GET "/euclid/output.js?num1=&num2=&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:17:29 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 535)
+
+
+Started GET "/euclid/output.js?num1=352&num2=4332&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:17:35 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"352", "num2"=>"4332", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 36)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 560)
+
+
+Started GET "/euclid/output.js?num1=352&num2=433&commit=Calc%20result" for 127.0.0.1 at 2020-11-16 22:19:48 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"352", "num2"=>"433", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.0ms | Allocations: 40)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 572)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-11-17 10:59:47 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.2ms | Allocations: 497)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 7420)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-11-17 10:59:49 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3507)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-11-17 10:59:49 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 2.0ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 3500)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-17 10:59:51 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3906)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:00:11 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.5ms | Allocations: 249)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 1827)
+
+
+Started GET "/euclid/output.js?num1=35&num2=20&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:00:51 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"20", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 25)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 592)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-11-17 11:22:16 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 2.5ms | Allocations: 497)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 7420)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-17 11:22:19 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 3909)
+
+
+Started GET "/euclid/output.js?num1=3534&num2=23&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:22:32 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"3534", "num2"=>"23", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.3ms | Allocations: 253)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1844)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-11-17 11:23:54 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3578)
+
+
+Started GET "/euclid/output.js?num1=3534&num2=23&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:23:56 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"3534", "num2"=>"23", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 597)
+
+
+Started GET "/euclid/output.js?num1=3534&num2=23&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:26:46 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"3534", "num2"=>"23", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 597)
+
+
+Started GET "/euclid/output.js?num1=3534&num2=23&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:26:47 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"3534", "num2"=>"23", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 34)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 597)
+
+
+Started GET "/euclid/output.js?num1=3534&num2=23&commit=Calc%20result" for 127.0.0.1 at 2020-11-17 11:26:47 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"3534", "num2"=>"23", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 34)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 593)
+
+
+Started GET "/euclid/output?num1=140&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-22 01:18:49 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"140", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.9ms | Allocations: 501)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 7370)
+
+
+Started GET "/euclid/output?num1=140&num2=96&commit=Calc+result" for 127.0.0.1 at 2020-11-22 01:18:50 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"140", "num2"=>"96", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 3456)
+
+
+Started GET "/euclid/output?num1=325&num2=8345&commit=Calc+result" for 127.0.0.1 at 2020-11-22 01:18:57 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"325", "num2"=>"8345", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3463)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-22 01:20:09 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 7571)
+
+
+Started GET "/euclid/output.js?num1=458&num2=542&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 01:20:15 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"458", "num2"=>"542", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.3ms | Allocations: 256)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1836)
+
+
+Started GET "/euclid/output.js?num1=35&num2=12&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 01:20:23 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"12", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 541)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 01:20:27 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 550)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-22 01:25:05 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 423)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4639)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 01:25:07 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.js.erb
+  Rendered euclid/output.js.erb (Duration: 0.3ms | Allocations: 245)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1799)
+
+
