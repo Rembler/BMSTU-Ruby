@@ -1,10 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Railslab</title>
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token" content="xcRG780VZ03XG5qHVYf/2mVYM3+fgRp9/xB4Md2OSYhpMKOCryUa2DOaIY0Ecr0Z+TFR2aPrkPH+DoJo7i8nsQ==" />
+
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <link rel="stylesheet" media="all" href="/assets/application.debug-04ae5f12ac00b7342f6af7aa0c68248c0c162a2fd2cbe4e39a4c4f2382a691cf.css" data-turbolinks-track="reload" />
+      <script>
+      euclid_url= location.protocol + "//" + location.host +
+          "/euclid/output.json"
+      function send_query(){
+          var frm = document.forms.imya;
+          var param_str = "?" +
+              "num1=" + frm.num1.value + "&" +
+              "num2=" + frm.num2.value;
+          if (param_str == "") return false;
+          var my_JSON_object = {};
+          var http_request = new XMLHttpRequest();
+          http_request.open("GET", euclid_url+param_str, true);
+          http_request.onreadystatechange = function () {
+              var done = 4, ok = 200;
+              if (http_request.readyState == done &&
+                  http_request.status == ok) {
+                  my_JSON_object =
+                      JSON.parse(http_request.responseText);
+                  show_result(my_JSON_object);
+              }
+          };
+          http_request.send(null);
+          return false;
+      }
+
+      function show_result(data) {
+          // var result = document.getElementById("result");
+          // var steps = document.getElementById("steps");
+          // if (data.value_result == null)
+          //     result.innerHTML = "<hr/>Введите корректные данные";
+          // else {
+          //     result.innerHTML = "<hr/>Результат: " + data.value_result;
+          //     steps.innerHTML = "<br/>Шаги:<br/>";
+          //     for (var i = 0; i < data.value_steps.length; ++i) {
+          //         steps.innerHTML += "<br/>&nbsp;&nbsp;&nbsp;" + data.value_steps[i] + "<br/>";
+          //     }
+          // }
+
+
+          res_field = document.getElementById("result")
+          if (data.value_code) {
+              str = "<p id='gcf'>Greatest common factor:" + data.value_resultgcf + "</p>"
+              str += "<p id='lcm'>Least common multiple:" + data.value_resultlcm + "</p>"
+              res_field.innerHTML = str
+              table = "</br> First: "
+              for (i = 0; i < data.value_stepsf.length; i++) {
+                  table += " "
+                  table += data.value_stepsf[i]
+              }
+              table += "</br> Second: "
+              for (i = 0; i < data.value_stepss.length; i++) {
+                  table += " "
+                  table += data.value_stepss[i]
+              }
+              res_field.innerHTML += table
+          }
+          else
+              res_field.innerHTML = "</br><p id='fail'>Incorrect data</p>"
+      }
+  </script>
+</head>
+
+<body>
 <h3> Input data </h3>
-<%= form_tag("/euclid/output.js", :method => "get", :remote => true) do %>
-  <%= label_tag("First number:") %>
-  <%= text_field_tag(:num1) %> <br/>
-  <%= label_tag("Second number:") %>
-  <%= text_field_tag(:num2) %> <br/>
-  <%= submit_tag("Calc result") %>
-<% end %>
-<div id="result">
+<form action="/euclid/output" accept-charset="UTF-8"  method="get" name="imya">
+  <label for="First_number:">First number:</label>
+  <input type="text" name="num1" id="num1" /> <br/>
+  <label for="Second_number:">Second number:</label>
+  <input type="text" name="num2" id="num2" /> <br/>
+  <input type="submit" name="commit" value="Calc result" onclick="return send_query();" />
+</form><div id="result">
 </div>
+</body>
+</html>

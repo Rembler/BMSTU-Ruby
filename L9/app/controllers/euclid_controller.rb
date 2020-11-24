@@ -6,6 +6,7 @@ class EuclidController < ApplicationController
   end
 
   def output
+    @code = true
     fnum = params[:num1]
     snum = params[:num2]
     @stepsf = []
@@ -27,12 +28,18 @@ class EuclidController < ApplicationController
       @resultgcf = fnumw + snumw
       @resultlcm = (fnum.to_i * snum.to_i) / @resultgcf
     else
-      @resultgcf = "Incorrect data"
-      @resultlcm = "Incorrect data"
+      @code = false
     end
     respond_to do |format|
       format.html
-      format.js
+      format.json do
+        render json:
+                   {type_code: @code.class.to_s, value_code: @code,
+                     type_resultgcf: @resultgcf.class.to_s, value_resultgcf: @resultgcf,
+                     type_resultlcm: @resultlcm.class.to_s, value_resultlcm: @resultlcm,
+                     type_stepsf: @stepsf.class.to_s, value_stepsf: @stepsf,
+                     type_stepss: @stepss.class.to_s, value_stepss: @stepss}
+      end
     end
   end
 end
