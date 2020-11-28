@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects type="array"><script/><script/>
+  <object>
+    <first type="integer">21</first>
+    <second type="integer">35</second>
+  </object>
+  <object>
+    <first type="integer">21</first>
+    <second type="integer">35</second>
+  </object>
+  <object>
+    <first type="integer">21</first>
+    <second type="integer">14</second>
+  </object>
+  <object>
+    <first type="integer">7</first>
+    <second type="integer">14</second>
+  </object>
+  <object>
+    <first type="integer">0</first>
+    <second type="integer">7</second>
+  </object>
+  <object>
+    <gcf type="integer">7</gcf>
+    <lcm type="integer">105</lcm>
+  </object>
+</objects>
