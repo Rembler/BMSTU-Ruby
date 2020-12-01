@@ -28,13 +28,13 @@ describe "Correct" do
     @driver.find_element(:id, "num2").clear
     @driver.find_element(:id, "num2").send_keys "21"
     @driver.find_element(:name, "commit").click
-    # (@driver.find_element(:id, "gcf").text).should == "Greatest common factor:7"
+    # (@driver.findelement(:id, "gcf").text).should == "Greatest common factor:7"
     expect(@driver.find_element(:id, "gcf").text).to eq("Greatest common factor:7")
     expect(@driver.find_element(:id, "lcm").text).to eq("Least common multiple:105")
   end
 
   it "test_empty" do
-    @driver.get "http://localhost:3000/"
+    @driver.get @base_url
     @driver.find_element(:id, "num1").clear
     @driver.find_element(:id, "num1").send_keys ""
     @driver.find_element(:id, "num2").clear

@@ -35,10 +35,10 @@ class EuclidController < ApplicationController
       format.json do
         render json:
                    {type_code: @code.class.to_s, value_code: @code,
-                     type_resultgcf: @resultgcf.class.to_s, value_resultgcf: @resultgcf,
-                     type_resultlcm: @resultlcm.class.to_s, value_resultlcm: @resultlcm,
-                     type_stepsf: @stepsf.class.to_s, value_stepsf: @stepsf,
-                     type_stepss: @stepss.class.to_s, value_stepss: @stepss}
+                    type_resultgcf: @resultgcf.class.to_s, value_resultgcf: @resultgcf,
+                    type_resultlcm: @resultlcm.class.to_s, value_resultlcm: @resultlcm,
+                    type_stepsf: @stepsf.class.to_s, value_stepsf: @stepsf,
+                    type_stepss: @stepss.class.to_s, value_stepss: @stepss}
       end
     end
   end
