@@ -12,13 +12,13 @@ describe "Correct" do
     @driver.manage.timeouts.implicit_wait = 30
     @verification_errors = []
   end
-  
+
   after(:each) do
     @driver.quit
     # @verification_errors.should == []
     expect(@verification_errors).to eq([])
   end
-  
+
   it "test_correct" do
     @driver.get @base_url
     @driver.find_element(:id, "num1").click
@@ -42,7 +42,7 @@ describe "Correct" do
     @driver.find_element(:name, "commit").click
     expect(@driver.find_element(:id, "fail").text).to eq("Incorrect data")
   end
-  
+
   def verify(&blk)
     yield
   rescue ExpectationNotMetError => ex

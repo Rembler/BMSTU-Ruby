@@ -88,7 +88,7 @@ describe "Full_check" do
     expect(@driver.find_element(:xpath, '//lcm').text).to eq "8265"
   end
 
-  it "xml_ok" do
+  it "xml_fail" do
     @driver.get "http://localhost:3001/"
     @driver.find_element(:id, "num1").click
     @driver.find_element(:id, "num1").clear

@@ -1,0 +1,8 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  val1: 1
+  val2: 1
+  gcf: 1
+  lcm: 1
+  st: MyText
