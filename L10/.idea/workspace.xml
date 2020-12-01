@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47e7176f-a3e8-4f3e-84e4-3312e1d71331" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/APP1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APP1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APP2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP2/app/controllers/proxy_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/APP2/app/controllers/proxy_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L8/app/controllers/euclid_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../L8/app/controllers/euclid_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L8/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/../L8/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L8/tmp/cache/bootsnap-compile-cache/2a/249a1034d26e29" beforeDir="false" afterPath="$PROJECT_DIR$/../L8/tmp/cache/bootsnap-compile-cache/2a/249a1034d26e29" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L8/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/../L8/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L9/app/controllers/euclid_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../L9/app/controllers/euclid_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L9/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/../L9/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L9/test/rspec/correct.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../L9/test/rspec/correct.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L9/tmp/cache/bootsnap-compile-cache/92/757735940d285c" beforeDir="false" afterPath="$PROJECT_DIR$/../L9/tmp/cache/bootsnap-compile-cache/92/757735940d285c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L9/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/../L9/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l17xXQwfSl8F1U3ZSp8zl3Yckw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47e7176f-a3e8-4f3e-84e4-3312e1d71331" name="Default Changelist" comment="" />
+      <created>1606752990935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606752990935</updated>
+      <workItem from="1606752992187" duration="633000" />
+      <workItem from="1606802862054" duration="3575000" />
+      <workItem from="1606813771333" duration="286000" />
+      <workItem from="1606815811913" duration="635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="254" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606814053884">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="726" y="254" width="530" height="605" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606814053884" />
+  </component>
+</project>
