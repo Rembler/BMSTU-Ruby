@@ -7,7 +7,7 @@ class UsersController < ApplicationController
     @users = User.all
     @user_name = current_user ? current_user.name : "unknown"
     data = @users.map do |inst|
-      { name: inst.name, email: inst.email, pasw: inst.password }
+      { name: inst.name, email: inst.email, pasw: inst.password_digest }
     end
     respond_to do |format|
       format.html

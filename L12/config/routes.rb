@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'euclid/index'
   resources :session, only: [:new, :create, :destroy]
   resources :users
+  get 'session/destroy'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
