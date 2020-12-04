@@ -2,7 +2,7 @@
 
 one:
   name: MyString
-  email: minekomu@ne.skazhem
+  email: valid@email.da
   password_digest: MyString
 
 two:

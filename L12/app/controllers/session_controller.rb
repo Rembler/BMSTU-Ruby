@@ -1,15 +1,14 @@
 class SessionController < ApplicationController
   skip_before_action :authenticate, only: [:new, :create]
 
-  def new
-  end
+  def new; end
 
   def create
     user = User.authenticate(params[:session][:email],
                              params[:session][:password])
     if user.nil?
       flash.now[:error] = "Invalid email/password combination."
-      @title = "Sign in"
+      @title = flash.now[:error]
       render 'new'
     else
       sign_in user
