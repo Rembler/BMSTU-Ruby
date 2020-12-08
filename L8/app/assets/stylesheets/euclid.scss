@@ -1,3 +1,45 @@
 // Place all the styles related to the Euclid controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+form
+{
+  text-align: center;
+}
+
+tr
+{
+  height: 32px;
+  //padding-top: 3px;
+  //padding-bottom: 3px;
+}
+
+table.input
+{
+  width: 213px;
+  margin: 20% auto auto;
+}
+
+table.table
+{
+  width: 500px;
+  margin: 7% auto auto;
+  text-align: center;
+}
+
+input.btn
+{
+  width: 213px;
+  margin-top: 3px;
+}
+
+input.output
+{
+  margin-top: 10px;
+}
+
+p.error
+{
+  width: 100px;
+  margin: 20% auto auto;
+}

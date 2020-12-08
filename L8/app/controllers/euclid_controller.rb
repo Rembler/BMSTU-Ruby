@@ -1,17 +1,18 @@
-class EuclidController < ApplicationController
-  def index
+# frozen_string_literal: true
 
-  end
+# main working class
+class EuclidController < ApplicationController
+  before_action :parse_params, only: :output
+
+  def index; end
 
   def output
     @code = true
-    fnum = params[:num1]
-    snum = params[:num2]
     @stepsf = []
     @stepss = []
-    if fnum =~ /\A\d+\z/ && snum =~ /\A\d+\z/
-      fnumw = fnum.to_i
-      snumw = snum.to_i
+    if @val1 =~ /\A\d+\z/ && @val2 =~ /\A\d+\z/
+      fnumw = @val1.to_i
+      snumw = @val2.to_i
       while fnumw != 0 && snumw != 0
         @stepsf << fnumw
         @stepss << snumw
@@ -24,9 +25,16 @@ class EuclidController < ApplicationController
       @stepsf << fnumw
       @stepss << snumw
       @resultgcf = fnumw + snumw
-      @resultlcm = (fnum.to_i * snum.to_i) / @resultgcf
+      @resultlcm = (@val1.to_i * @val1.to_i) / @resultgcf
     else
       @code = false
     end
+  end
+
+  protected
+
+  def parse_params
+    @val1 = params[:num1]
+    @val2 = params[:num2]
   end
 end

@@ -1,22 +1,22 @@
-<h3> Output data </h3>
-<h4> Greatest common factor </h4>
-<p> <%= @resultgcf %></p>
-<h4> Least common multiple </h4>
-<p> <%= @resultlcm %></p>
-<table>
-  <tr>
-    <td>States of first number</td>
-    <% @stepsf.each do |elem| %>
-    <td><%= elem %></td>
+<% if @code %>
+  <table class="table table-bordered">
+    <tr><td> Greatest common factor </td>
+    <td> Least common multiple </td></tr>
+    <tr><td> <%= @resultgcf %></td>
+    <td> <%= @resultlcm %></td></tr>
+    <tr><td colspan="2">Iterations</td></tr>
+    <tr><td> First number </td>
+    <td> Second number </td></tr>
+    <% i = 0 %>
+    <% @stepsf.size.times do |i| %>
+      <tr><td><%= @stepsf[i] %></td>
+      <td><%= @stepss[i] %></td></tr>
+      <% i += 1 %>
     <% end %>
-  </tr>
-  <tr>
-    <td>States of second number</td>
-    <% @stepss.each do |elem| %>
-      <td><%= elem %></td>
-    <% end %>
-  </tr>
-</table><br/>
+  </table>
+<% else %>
+  <p class="error">Incorrect data</p>
+<% end %>
 <%= form_tag("/euclid/index", :method => "get") do %>
-  <%= submit_tag("Return to start page") %>
+  <%= submit_tag("Return to start page", class: "btn btn-outline-dark output") %>
 <% end %>

@@ -1652,3 +1652,1481 @@ Processing by EuclidController#output as HTML
 Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3845)
 
 
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 02:04:40 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb
+  Rendered euclid/output.html.erb (Duration: 1.3ms | Allocations: 504)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2878)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 02:04:41 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb
+  Rendered euclid/output.html.erb (Duration: 0.1ms | Allocations: 93)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 573)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 02:04:42 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb
+  Rendered euclid/output.html.erb (Duration: 0.9ms | Allocations: 93)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 582)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 02:04:42 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb
+  Rendered euclid/output.html.erb (Duration: 0.1ms | Allocations: 92)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 585)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 02:04:43 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb
+  Rendered euclid/output.html.erb (Duration: 0.1ms | Allocations: 93)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 586)
+
+
+Started GET "/euclid/output.js?num1=35&num2=21&commit=Calc%20result" for 127.0.0.1 at 2020-11-22 02:04:44 +0300
+Processing by EuclidController#output as JS
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb
+  Rendered euclid/output.html.erb (Duration: 1.1ms | Allocations: 93)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 580)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-22 02:04:46 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 415)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 6327)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-22 02:04:47 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3519)
+
+
+Started GET "/" for 127.0.0.1 at 2020-11-22 02:04:55 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3498)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-11-22 02:05:03 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3519)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 02:33:27 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 7285)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 02:35:40 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2171ms (Views: 2165.5ms | ActiveRecord: 0.0ms | Allocations: 71635)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-12-08 02:36:42 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 7304)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:37:31 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 416)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 8074)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:37:34 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 6975)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:37:35 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 6967)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:38:56 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 425)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 8072)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-12-08 02:39:29 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 338)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 7253)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:39:30 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6992)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:43:38 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 668ms (Views: 667.2ms | ActiveRecord: 0.0ms | Allocations: 22825)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:43:40 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 232)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 6977)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:43:41 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 6978)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-12-08 02:43:53 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6835)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:43:58 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6988)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:44:21 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 707ms (Views: 706.6ms | ActiveRecord: 0.0ms | Allocations: 23245)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:45:09 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 689ms (Views: 688.0ms | ActiveRecord: 0.0ms | Allocations: 24982)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:45:11 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 6990)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:46:20 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 695ms (Views: 694.3ms | ActiveRecord: 0.0ms | Allocations: 24181)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:46:22 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6972)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:48:20 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 692ms (Views: 690.9ms | ActiveRecord: 0.0ms | Allocations: 24187)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:49:19 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 685ms (Views: 684.5ms | ActiveRecord: 0.0ms | Allocations: 25039)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:49:58 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 8082)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:50:07 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 232)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 7487)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:50:20 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 687ms (Views: 685.9ms | ActiveRecord: 0.0ms | Allocations: 24194)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:51:03 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 7061)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:51:50 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 672ms (Views: 670.7ms | ActiveRecord: 0.0ms | Allocations: 24579)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:52:07 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 661ms (Views: 660.5ms | ActiveRecord: 0.0ms | Allocations: 25063)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:54:11 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 674ms (Views: 673.5ms | ActiveRecord: 0.0ms | Allocations: 25025)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:54:19 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 706ms (Views: 705.2ms | ActiveRecord: 0.0ms | Allocations: 25447)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:54:40 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 684ms (Views: 683.4ms | ActiveRecord: 0.0ms | Allocations: 26319)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:57:18 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 436)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 8085)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:57:34 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 232)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 676ms (Views: 675.6ms | ActiveRecord: 0.0ms | Allocations: 25020)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:57:36 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 6978)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:57:48 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 670ms (Views: 669.8ms | ActiveRecord: 0.0ms | Allocations: 25497)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:59:17 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 434)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 666ms (Views: 664.6ms | ActiveRecord: 0.0ms | Allocations: 25306)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 02:59:42 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 232)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 680ms (Views: 678.8ms | ActiveRecord: 0.0ms | Allocations: 24575)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:00:02 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 693ms (Views: 691.8ms | ActiveRecord: 0.0ms | Allocations: 25471)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:00:53 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 688ms (Views: 686.9ms | ActiveRecord: 0.0ms | Allocations: 25519)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:01:50 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 653ms (Views: 652.4ms | ActiveRecord: 0.0ms | Allocations: 24194)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:03:10 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 675ms (Views: 674.6ms | ActiveRecord: 0.0ms | Allocations: 25095)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:03:44 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 656ms (Views: 655.4ms | ActiveRecord: 0.0ms | Allocations: 25077)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:04:06 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 670ms (Views: 669.0ms | ActiveRecord: 0.0ms | Allocations: 24642)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:04:22 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 8088)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:04:31 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 370)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 7290)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:04:38 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6985)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:04:40 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.6ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 6837)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:04:44 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 231)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 6988)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:10:20 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 8065)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:10:34 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 8075)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:10:45 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 670ms (Views: 669.0ms | ActiveRecord: 0.0ms | Allocations: 27005)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:11:43 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 8070)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:12:41 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 682ms (Views: 680.7ms | ActiveRecord: 0.0ms | Allocations: 26595)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:12:54 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 359)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 7283)
+
+
+  
+SassC::SyntaxError (Error: property "au" must be followed by a ':'
+        on line 24:3 of app/assets/stylesheets/euclid.scss
+>>   au
+
+   --^
+):
+  
+app/assets/stylesheets/euclid.scss:24
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:23:09 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 8224)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:26:37 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 486)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 8120)
+
+
+Started POST "/euclid/output" for 127.0.0.1 at 2020-12-08 03:26:44 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/euclid/output"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:31:27 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 436)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8092)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:31:41 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 359)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 7279)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:31:58 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 8095)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:32:19 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 239)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6977)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:32:39 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 695ms (Views: 693.6ms | ActiveRecord: 0.0ms | Allocations: 25046)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:32:41 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 6981)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:33:47 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 675ms (Views: 673.2ms | ActiveRecord: 0.0ms | Allocations: 25935)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:35:51 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 468)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 8117)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:39:20 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 455)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 8178)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:40:12 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 7967)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:40:38 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 325)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 7985)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:40:41 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 352)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 7255)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:43:46 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 657ms (Views: 656.1ms | ActiveRecord: 0.0ms | Allocations: 25791)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:45:09 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 680ms (Views: 679.2ms | ActiveRecord: 0.0ms | Allocations: 25763)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:45:26 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 714ms (Views: 713.2ms | ActiveRecord: 0.0ms | Allocations: 24972)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:45:40 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 683ms (Views: 682.5ms | ActiveRecord: 0.0ms | Allocations: 25398)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:46:11 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 679ms (Views: 678.6ms | ActiveRecord: 0.0ms | Allocations: 25786)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 03:46:51 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 668ms (Views: 667.2ms | ActiveRecord: 0.0ms | Allocations: 24530)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:46:56 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6839)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:46:58 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6901)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:47:44 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 656ms (Views: 655.3ms | ActiveRecord: 0.0ms | Allocations: 24524)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:48:12 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 674ms (Views: 672.9ms | ActiveRecord: 0.0ms | Allocations: 25422)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:48:20 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 671ms (Views: 669.8ms | ActiveRecord: 0.0ms | Allocations: 26660)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:48:22 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 6891)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:49:42 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 662ms (Views: 661.4ms | ActiveRecord: 0.0ms | Allocations: 24946)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:50:52 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 652ms (Views: 650.5ms | ActiveRecord: 0.0ms | Allocations: 24908)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:51:47 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 646ms (Views: 645.1ms | ActiveRecord: 0.0ms | Allocations: 24922)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:51:58 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 682ms (Views: 681.3ms | ActiveRecord: 0.0ms | Allocations: 24535)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:52:09 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 689ms (Views: 687.9ms | ActiveRecord: 0.0ms | Allocations: 26699)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Calc+result" for 127.0.0.1 at 2020-12-08 03:52:28 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Calc result"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6865)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:52:33 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 6901)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:53:24 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 330)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7987)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:54:17 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 7967)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:54:24 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 7975)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 03:58:53 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 349)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 7267)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:59:22 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 644ms (Views: 643.2ms | ActiveRecord: 0.0ms | Allocations: 25746)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:59:24 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6907)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 03:59:32 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 649ms (Views: 648.4ms | ActiveRecord: 0.0ms | Allocations: 26586)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:00:18 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6835)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:01:13 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6831)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:07:10 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 6899)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:10:32 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 7077)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:10:37 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 6882)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:10:48 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6846)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:13:37 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1156)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2431)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h3> Output data </h3>
+<%= if @code %>
+<h4> Greatest common factor </h4>
+<p> <%= @resultgcf %></p>
+<h4> Least common multiple </h4>
+<p> <%= @resultlcm %></p>
+<table>
+  <tr>
+    <td>States of first number</td>
+    <% @stepsf.each do |elem| %>
+    <td><%= elem %></td>
+    <% end %>
+  </tr>
+  <tr>
+    <td>States of second number</td>
+    <% @stepss.each do |elem| %>
+      <td><%= elem %></td>
+    <% end %>
+  </tr>
+</table><br/>
+<%= form_tag("/euclid/index", :method => "get") do %>
+  <%= submit_tag("Return to start page") %>
+<% end %>
+<% else %>
+  <p>Incorrect data</p>
+<% end %>
+):
+1:    <h3> Output data </h3>
+2:    <%= if @code %>
+3:    <h4> Greatest common factor </h4>
+4:    <p> <%= @resultgcf %></p>
+5:    <h4> Least common multiple </h4>
+6:    <p> <%= @resultlcm %></p>
+7:    <table>
+8:      <tr>
+9:        <td>States of first number</td>
+10:        <% @stepsf.each do |elem| %>
+11:        <td><%= elem %></td>
+12:        <% end %>
+13:      </tr>
+14:      <tr>
+15:        <td>States of second number</td>
+16:        <% @stepss.each do |elem| %>
+17:          <td><%= elem %></td>
+18:        <% end %>
+19:      </tr>
+20:    </table><br/>
+21:    <%= form_tag("/euclid/index", :method => "get") do %>
+22:      <%= submit_tag("Return to start page") %>
+23:    <% end %>
+24:    <% else %>
+25:      <p>Incorrect data</p>
+26:    <% end %>
+  
+app/views/euclid/output.html.erb:2: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/euclid/output.html.erb:24: syntax error, unexpected `else', expecting ')'
+app/views/euclid/output.html.erb:26: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:28: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:2: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/euclid/output.html.erb:24: syntax error, unexpected `else', expecting ')'
+app/views/euclid/output.html.erb:26: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:28: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:2: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/euclid/output.html.erb:24: syntax error, unexpected `else', expecting ')'
+app/views/euclid/output.html.erb:26: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:28: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:2: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/euclid/output.html.erb:24: syntax error, unexpected `else', expecting ')'
+app/views/euclid/output.html.erb:26: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:28: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:2: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/euclid/output.html.erb:24: syntax error, unexpected `else', expecting ')'
+app/views/euclid/output.html.erb:26: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:28: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:2: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/euclid/output.html.erb:24: syntax error, unexpected `else', expecting ')'
+app/views/euclid/output.html.erb:26: syntax error, unexpected `end', expecting ')'
+app/views/euclid/output.html.erb:28: syntax error, unexpected `end', expecting ')'
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:13:57 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.5ms | Allocations: 311)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7994)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:14:00 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6785)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:14:05 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 6794)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:14:11 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 6794)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:23:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 368)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 8073)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:23:29 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 322)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7206)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:23:33 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6896)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:23:37 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6907)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:24:48 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 720ms (Views: 718.5ms | ActiveRecord: 0.0ms | Allocations: 25719)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:25:03 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 325)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 7222)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:25:27 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 7985)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:25:32 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 383)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 7314)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:25:36 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 6896)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:27:16 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.4ms | Allocations: 371)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 709ms (Views: 707.4ms | ActiveRecord: 0.0ms | Allocations: 26535)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:27:38 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 671ms (Views: 669.5ms | ActiveRecord: 0.0ms | Allocations: 25409)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:27:42 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 324)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 7219)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:27:47 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 6890)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:27:59 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 691ms (Views: 689.9ms | ActiveRecord: 0.0ms | Allocations: 27061)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:29:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.8ms | Allocations: 382)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 680ms (Views: 678.6ms | ActiveRecord: 0.0ms | Allocations: 26625)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:29:58 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 377)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 703ms (Views: 701.7ms | ActiveRecord: 0.0ms | Allocations: 25761)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:30:04 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 7225)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:30:06 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6865)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:30:08 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 6891)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:30:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 6864)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 04:30:10 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6901)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 04:30:22 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 100)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 6887)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 14:27:31 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 467)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 612ms (Views: 608.7ms | ActiveRecord: 0.0ms | Allocations: 30536)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:27:36 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.5ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 7348)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:27:39 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 6920)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:27:41 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 6898)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:27:43 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 6928)
+
+
+Started GET "/euclid/output?num1=lkj&num2=90&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:27:48 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"lkj", "num2"=>"90", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6890)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:27:50 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6922)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:31:42 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.3ms | Allocations: 357)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 540ms (Views: 538.8ms | ActiveRecord: 0.0ms | Allocations: 26434)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:31:44 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7241)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:31:48 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 6881)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:32:13 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 549ms (Views: 548.7ms | ActiveRecord: 0.0ms | Allocations: 24522)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:32:23 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 589ms (Views: 586.8ms | ActiveRecord: 0.0ms | Allocations: 25423)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:32:31 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 533ms (Views: 532.3ms | ActiveRecord: 0.0ms | Allocations: 25376)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:32:34 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 6924)
+
+
+Started GET "/euclid/output?num1=&num2=&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:32:36 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"", "num2"=>"", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 6883)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:32:37 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+  Rendered euclid/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 6928)
+
+
+Started GET "/euclid/output?num1=35&num2=21&commit=Do+it%21" for 127.0.0.1 at 2020-12-08 14:32:41 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"35", "num2"=>"21", "commit"=>"Do it!"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.5ms | Allocations: 100)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6907)
+
+

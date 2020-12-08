@@ -1,8 +1,11 @@
-<h3> Input data </h3>
-<%= form_tag("/euclid/output", :method => "get") do %>
-  <%= label_tag("First number:") %>
-  <%= text_field_tag(:num1) %> <br/>
-  <%= label_tag("Second number:") %>
-  <%= text_field_tag(:num2) %> <br/>
-  <%= submit_tag("Calc result") %>
+
+<div class="form-group">
+<%= form_tag("/euclid/output", :method => "get", :autocomplete => "off") do %>
+    <table class="input"><tr><td>
+  <%= text_field_tag(:num1, nil, placeholder: "First number") %></td>
+    </tr><tr><td>
+  <%= text_field_tag(:num2, nil, placeholder: "Second number") %></td>
+    </tr></table>
+  <%= submit_tag("Do it!", class: "btn btn-outline-dark") %>
 <% end %>
+</div>
