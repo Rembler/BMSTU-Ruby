@@ -1,33 +1,17 @@
 require 'test_helper'
 
 class SessionTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
-  test 'should login' do
-    instance = User.new(email: 'da@a.a', password_digest: 'da')
-    instance.save
-    get signin_url
-    assert_response :success
-    post session_index_url, params: { session: { email: 'da@a.a', password: 'da' } }
-    assert_response :success
+  test 'should reg and log' do
+    post users_path, params: { user: { email: 'email@email.ru', password: 'net' } }
+    assert_response :redirect
+    post session_index_url, params: { session: { email: 'email@email.ru', password: 'net' } }
+    assert_response :redirect
   end
 
-  # test 'should not login' do
-  #   assert_raises 'InvalidHash' do
-  #     post signin_url, params: { email: 'gmail.com', password_digest: 'parol' }
-  #   end
-  # end
+  test 'should redirect to login' do
+    get '/euclid/index'
+    assert_response :redirect
+    assert_redirected_to signin_url
+  end
 
-  # test "can create an article" do
-  #   get "/articles/new"
-  #   assert_response :success
-  #
-  #   post "/articles",
-  #        params: { article: { title: "can create", body: "article successfully." } }
-  #   assert_response :redirect
-  #   follow_redirect!
-  #   assert_response :success
-  #   assert_select "p", "Title:\n can create"
-  # end
 end
