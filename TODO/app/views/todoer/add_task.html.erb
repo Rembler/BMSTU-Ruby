@@ -1,0 +1,41 @@
+<%= render 'head' %>
+<%= form_with(model: @task, local: true, html: { class: "reg_form", autocomplete: "off" }) do |form| %>
+  <div class="error_div">
+    <% if @task.errors.any? %>
+      <div id="error_explanation">
+        <h2>Не удалось создать TODO</h2>
+        <ul>
+          <% @task.errors.full_messages.each do |message| %>
+            <% case message %>
+            <% when "Title can't be blank" %>
+              <% message = "Укажите, что вы хотите добавить" %>
+            <% else %>
+              <% message = nil %>
+            <% end %>
+            <% if message %>
+              <li><%= message %></li>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+  </div>
+  <div class="signup_div">
+      <div class="field">
+        <%= form.text_field :title, placeholder: "Что надо сделать?" %>
+      </div>
+      <div class="field">
+        <%= form.text_field :content, placeholder: "Немного конкретики" %>
+      </div>
+    <div class="row field">
+      <div id="select_caption">Скрытый TODO?  </div>
+      <%= form.check_box :is_private, :checked => true %>
+    </div>
+      <div class="field">
+        <%= form.select :group, ["В планах", "В работе"] %>
+      </div>
+    <div class="actions">
+      <%= form.submit "Создать TODO" %>
+    </div>
+  </div>
+<% end %>

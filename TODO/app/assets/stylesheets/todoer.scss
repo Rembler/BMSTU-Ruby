@@ -1,0 +1,141 @@
+// Place all the styles related to the todoer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#main_content {
+  margin: 20px;
+  min-height: auto;
+}
+
+.row.buttons {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.card_row {
+  margin: 0;
+}
+
+.card_menu {
+  border-left: 1px solid lightgrey;
+  padding: 0px;
+}
+
+.card_delete {
+  height: 32.65px;
+}
+
+.card_done_delete {
+  height: 50%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.card_done_edit {
+  height: 50%;
+}
+
+.img_mini {
+  width: 70%;
+  height: 70%;
+}
+
+.move_to_right {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  height: calc(100% - 65.3px);
+}
+
+.card_edit {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 32.65px;
+}
+
+div.card_menu_elem button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+#select_caption {
+  width: 160px;
+}
+
+.group_title {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.btn_add {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+#task_group {
+  width: 100%;
+}
+
+.add_del {
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+.btn_del {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.navbar {
+  border-radius: 6px;
+}
+
+.buttons {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-text {
+  text-indent: 20px;
+  text-align: justify ;
+}
+
+.card {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  margin: 20px;
+}
+
+a:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.session_info {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+div.dropdown {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.dropdown-menu {
+  right: 0;
+  left: auto;
+  font-size: 13px;
+}
+
+.navbar-text {
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: auto;
+}

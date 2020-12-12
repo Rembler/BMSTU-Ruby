@@ -1,0 +1,57 @@
+<%= form_with(model: @user, local: true, html: { class: "reg_form", autocomplete: "off" }) do |form| %>
+  <div class="error_div">
+    <% if @user.errors.any? %>
+      <div id="error_explanation">
+        <h2>Не удалось зарегистрироваться</h2>
+        <ul>
+          <% @user.errors.full_messages.each do |message| %>
+            <% case message %>
+            <% when "Password can't be blank" %>
+              <% message = "Введите пароль" %>
+            <% when "Name can't be blank" %>
+              <% message = "Введите имя" %>
+            <% when "Email is invalid" %>
+              <% message = "Введите корректный адрес электронной почты" %>
+            <% when "Password confirmation doesn't match Password" %>
+              <% message = "Пароли не совпадают" %>
+            <% when "Email has already been taken" %>
+              <% message = "Указанный адрес электронной почты уже зарегистрирован" %>
+            <% else %>
+              <% message = nil %>
+            <% end %>
+            <% if message %>
+              <li><%= message %></li>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+  </div>
+  <div class="signup_div">
+    <div class="field">
+      <%#= form.label :name %>
+      <%= form.text_field :name, placeholder: "Имя" %>
+    </div>
+
+    <div class="field">
+      <%#= form.label :email %>
+      <%= form.text_field :email, placeholder: "Электронная почта" %>
+    </div>
+
+    <div class="field">
+      <%#= form.label :password %>
+      <%= form.password_field :password, placeholder: "Пароль" %>
+    </div>
+
+    <div class="field">
+      <%#= form.label :password_confirmation %>
+      <%= form.password_field :password_confirmation, placeholder: "Повторите пароль" %>
+    </div>
+
+    <div class="actions">
+      <%= form.submit "Зарегистрироваться" %>
+    </div>
+  <% end %>
+
+  <%= link_to 'У меня уже есть аккаунт', login_path %>
+  </div>

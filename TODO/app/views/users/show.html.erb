@@ -1,0 +1,18 @@
+<%= render 'todoer/head' %>
+
+<!--<p id="notice"><%#= notice %></p>-->
+<div id="user_info">
+  <table  class="table table-borderless">
+    <tr>
+      <td class="caption">Имя:</td>
+      <td class="value"><%= @user.name %></td>
+    </tr>
+    <tr>
+      <td class="caption">Электронная почта:</td>
+      <td class="value"><%= @user.email %></td>
+    </tr>
+  </table>
+</div>
+
+<!--<%#= link_to 'Edit', edit_user_path(@user) %> |-->
+<%#= link_to 'Back', root_path %>

@@ -1,0 +1,84 @@
+<%= render 'head' %>
+<div id="main_content">
+  <div class="row buttons">
+    <div class="col-6 btn_add">
+      <a href="<%= tasks_path %>">
+        <button class="btn add_del col-12">Добавить</button>
+      </a>
+    </div>
+    <div class="col-6 btn_del">
+      <button class="btn add_del col-12">Корзина</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <div class="card"><p class="group_title">В планах</p></div>
+      <% @card_plans.each do |card| %>
+      <div class="card" id="<%= card.id %>">
+        <div class="row card_row">
+        <div class="card-body col-11">
+          <h4 class="card-title"><%= card.title %></h4>
+          <p class="card-text"><%= card.content %></p>
+        </div>
+        <div class="col-1 card_menu">
+          <div class="card_menu_elem card_delete">
+            <button class="btn"><img class="img_mini" src="<%= image_path('close.svg') %>"></button>
+          </div>
+          <div class="card_menu_elem move_to_right">
+            <button class="btn"><img class="img_mini" src="<%= image_path('chevron-right.svg') %>"></button>
+          </div>
+          <div class="card_menu_elem card_edit">
+            <button class="btn"><img class="img_mini" src="<%= image_path('search.svg') %>"></button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+    <div class="col-4">
+      <div class="card"><p class="group_title">В работе</p></div>
+      <% @card_in_work.each do |card| %>
+        <div class="card" id="<%= card.id %>">
+          <div class="row card_row">
+            <div class="card-body col-11">
+              <h4 class="card-title"><%= card.title %></h4>
+              <p class="card-text"><%= card.content %></p>
+            </div>
+            <div class="col-1 card_menu">
+              <div class="card_menu_elem card_delete">
+                <button class="btn"><img class="img_mini" src="<%= image_path('close.svg') %>"></button>
+              </div>
+              <div class="card_menu_elem move_to_right">
+                <button class="btn"><img class="img_mini" src="<%= image_path('chevron-right.svg') %>"></button>
+              </div>
+              <div class="card_menu_elem card_edit">
+                <button class="btn"><img class="img_mini" src="<%= image_path('search.svg') %>"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="col-4">
+      <div class="card"><p class="group_title">Выполнено</p></div>
+      <% @card_done.each do |card| %>
+        <div class="card" id="<%= card.id %>">
+          <div class="row card_row">
+            <div class="card-body col-11">
+              <h4 class="card-title"><%= card.title %></h4>
+              <p class="card-text"><%= card.content %></p>
+            </div>
+            <div class="col-1 card_menu">
+              <div class="card_menu_elem card_done_delete">
+                <button class="btn"><img class="img_mini" src="<%= image_path('close.svg') %>"></button>
+              </div>
+              <div class="card_menu_elem card_done_edit">
+                <button class="btn"><img class="img_mini" src="<%= image_path('search.svg') %>"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

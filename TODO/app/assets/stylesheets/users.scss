@@ -1,0 +1,53 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+div.signup_div {
+  width: 183px;
+  margin: auto;
+  text-align: center;
+}
+
+div#error_explanation {
+  margin: auto;
+  text-align: left;
+  border-radius: 3px;
+}
+
+div.error_div {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.field_with_errors {
+  border-radius: 3px;
+  padding: 0 4px 0 0;
+}
+
+#warning_msg {
+  width: 650px;
+  margin: 20% auto auto;
+  text-align: center;
+}
+
+#warning {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#user_info {
+  width: 500px;
+  margin: 18% auto auto;
+}
+
+.caption {
+  text-align: right;
+  width: 50%;
+  font-size: 20px
+}
+
+.value {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
