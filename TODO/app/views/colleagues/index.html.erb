@@ -1,0 +1,24 @@
+<%= render 'todoer/head' %>
+<div id="list_of_coll">
+  <% count = 0 %>
+  <% @colleagues.each do |colleague| %>
+    <% if count.zero? %>
+      <div class="row">
+    <% end %>
+    <div class="col-4">
+      <div class="card">
+        <div class="card-body">
+          <a href="<%= colleague_path(params: { id: colleague.id }) %>">
+            <h4 class="card-title trash_can_title coll_title"><%= colleague.name %></h4>
+          </a>
+        </div>
+      </div>
+    </div>
+    <% if count == 2 %>
+      <% count = 0 %>
+      </div>
+    <% else %>
+      <% count += 1 %>
+    <% end %>
+  <% end %>
+</div>

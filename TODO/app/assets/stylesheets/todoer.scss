@@ -25,6 +25,25 @@
   height: 32.65px;
 }
 
+.trash_can_title {
+  margin: 0;
+}
+
+.trash_can_menu {
+  height: 25px;
+  text-align: center;
+  border-top: 1px solid lightgrey;
+  padding: 0;
+}
+
+.del_forever {
+  border-right: 1px solid lightgrey;
+}
+
+.del_all {
+  border: 2px solid lightgrey;
+}
+
 .card_done_delete {
   height: 50%;
   border-bottom: 1px solid lightgrey;
@@ -35,8 +54,8 @@
 }
 
 .img_mini {
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
 }
 
 .move_to_right {
@@ -50,6 +69,14 @@
   bottom: 0;
   width: 100%;
   height: 32.65px;
+}
+
+div.card_menu_elem a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 div.card_menu_elem button {

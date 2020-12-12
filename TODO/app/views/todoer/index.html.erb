@@ -7,14 +7,16 @@
       </a>
     </div>
     <div class="col-6 btn_del">
-      <button class="btn add_del col-12">Корзина</button>
+      <a href="<%= trash_can_path %>">
+        <button class="btn add_del col-12">Корзина</button>
+      </a>
     </div>
   </div>
   <div class="row">
-    <div class="col-4">
+    <div class="col-4" id="in_plans">
       <div class="card"><p class="group_title">В планах</p></div>
       <% @card_plans.each do |card| %>
-      <div class="card" id="<%= card.id %>">
+      <div class="card" id="card_<%= card.id %>">
         <div class="row card_row">
         <div class="card-body col-11">
           <h4 class="card-title"><%= card.title %></h4>
@@ -22,23 +24,23 @@
         </div>
         <div class="col-1 card_menu">
           <div class="card_menu_elem card_delete">
-            <button class="btn"><img class="img_mini" src="<%= image_path('close.svg') %>"></button>
+            <%= link_to image_tag(image_path('close.svg'), class: "img_mini"), trash_path(params: { id: card.id }), remote: true %>
           </div>
           <div class="card_menu_elem move_to_right">
-            <button class="btn"><img class="img_mini" src="<%= image_path('chevron-right.svg') %>"></button>
+            <%= link_to image_tag(image_path('chevron-right.svg'), class: "img_mini"), move_path(params: { id: card.id }), remote: true %>
           </div>
           <div class="card_menu_elem card_edit">
-            <button class="btn"><img class="img_mini" src="<%= image_path('search.svg') %>"></button>
+            <%= link_to image_tag(image_path('search.svg'), class: "img_mini"), edit_path(params: { id: card.id }) %>
           </div>
         </div>
         </div>
       </div>
       <% end %>
     </div>
-    <div class="col-4">
+    <div class="col-4" id="in_work">
       <div class="card"><p class="group_title">В работе</p></div>
       <% @card_in_work.each do |card| %>
-        <div class="card" id="<%= card.id %>">
+        <div class="card" id="card_<%= card.id %>">
           <div class="row card_row">
             <div class="card-body col-11">
               <h4 class="card-title"><%= card.title %></h4>
@@ -46,23 +48,23 @@
             </div>
             <div class="col-1 card_menu">
               <div class="card_menu_elem card_delete">
-                <button class="btn"><img class="img_mini" src="<%= image_path('close.svg') %>"></button>
+                <%= link_to image_tag(image_path('close.svg'), class: "img_mini"), trash_path(params: { id: card.id }), remote: true %>
               </div>
               <div class="card_menu_elem move_to_right">
-                <button class="btn"><img class="img_mini" src="<%= image_path('chevron-right.svg') %>"></button>
+                <%= link_to image_tag(image_path('chevron-right.svg'), class: "img_mini"), move_path(params: { id: card.id }), remote: true %>
               </div>
               <div class="card_menu_elem card_edit">
-                <button class="btn"><img class="img_mini" src="<%= image_path('search.svg') %>"></button>
+                <%= link_to image_tag(image_path('search.svg'), class: "img_mini"), edit_path(params: { id: card.id }) %>
               </div>
             </div>
           </div>
         </div>
       <% end %>
     </div>
-    <div class="col-4">
+    <div class="col-4" id="done">
       <div class="card"><p class="group_title">Выполнено</p></div>
       <% @card_done.each do |card| %>
-        <div class="card" id="<%= card.id %>">
+        <div class="card" id="card_<%= card.id %>">
           <div class="row card_row">
             <div class="card-body col-11">
               <h4 class="card-title"><%= card.title %></h4>
@@ -70,10 +72,10 @@
             </div>
             <div class="col-1 card_menu">
               <div class="card_menu_elem card_done_delete">
-                <button class="btn"><img class="img_mini" src="<%= image_path('close.svg') %>"></button>
+                <%= link_to image_tag(image_path('close.svg'), class: "img_mini"), trash_path(params: { id: card.id }), remote: true %>
               </div>
               <div class="card_menu_elem card_done_edit">
-                <button class="btn"><img class="img_mini" src="<%= image_path('search.svg') %>"></button>
+                <%= link_to image_tag(image_path('search.svg'), class: "img_mini"), edit_path(params: { id: card.id }) %>
               </div>
             </div>
           </div>

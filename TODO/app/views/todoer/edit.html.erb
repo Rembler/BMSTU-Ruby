@@ -1,0 +1,41 @@
+<%= render 'head' %>
+<%= form_with(model: @task, local: true, url: update_path(id: @task.id), html: { class: "reg_form", autocomplete: "off" }) do |form| %>
+  <div class="error_div">
+    <% if @task.errors.any? %>
+      <div id="error_explanation">
+        <h2>Не удалось изменить TODO</h2>
+        <ul>
+          <% @task.errors.full_messages.each do |message| %>
+            <% case message %>
+            <% when "Title can't be blank" %>
+              <% message = "Данное поле не может быть пустым" %>
+            <% else %>
+              <% message = nil %>
+            <% end %>
+            <% if message %>
+              <li><%= message %></li>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+  </div>
+  <div class="signup_div">
+    <div class="field">
+      <%= form.text_field :title, placeholder: "Что надо сделать?" %>
+    </div>
+    <div class="field">
+      <%= form.text_field :content, placeholder: "Немного конкретики" %>
+    </div>
+    <div class="row field">
+      <div id="select_caption">Скрытый TODO?  </div>
+      <%= form.check_box :is_private %>
+    </div>
+    <div class="field">
+      <%= form.select :group, ["В планах", "В работе", "Выполнено"] %>
+    </div>
+    <div class="actions">
+      <%= form.submit "Подтвердить изменения" %>
+    </div>
+  </div>
+<% end %>

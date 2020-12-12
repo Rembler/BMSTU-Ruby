@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_11_175624) do
+ActiveRecord::Schema.define(version: 2020_12_12_144732) do
 
   create_table "tasks", force: :cascade do |t|
     t.integer "owner"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_175624) do
     t.string "group"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.boolean "is_in_trash"
   end
 
   create_table "users", force: :cascade do |t|
