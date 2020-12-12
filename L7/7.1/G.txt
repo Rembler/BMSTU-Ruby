@@ -1,1 +1,1 @@
-39 -9 36 27
+No such elements in input file

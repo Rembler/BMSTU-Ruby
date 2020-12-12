@@ -2230,3 +2230,200 @@ Processing by EuclidController#output as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2246)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------
+EuclidControllerTest: test_should_get_5_for_25_and_35
+-----------------------------------------------------
+Started GET "/euclid/output?num1=91788422&num2=181573262" for 127.0.0.1 at 2020-12-08 14:35:08 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"91788422", "num2"=>"181573262"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1766ms (Views: 1762.6ms | ActiveRecord: 0.0ms | Allocations: 65777)
+Started GET "/euclid/output?num1=235945160&num2=542467016" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"235945160", "num2"=>"542467016"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5719)
+Started GET "/euclid/output?num1=15950&num2=39494" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"15950", "num2"=>"39494"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5673)
+Started GET "/euclid/output?num1=4510&num2=7826" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"4510", "num2"=>"7826"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5681)
+Started GET "/euclid/output?num1=7585820&num2=15041572" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"7585820", "num2"=>"15041572"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 5697)
+Started GET "/euclid/output?num1=11&num2=13" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"11", "num2"=>"13"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5657)
+Started GET "/euclid/output?num1=319&num2=403" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"319", "num2"=>"403"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5669)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 5657)
+Started GET "/euclid/output?num1=2661864238&num2=5628771122" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2661864238", "num2"=>"5628771122"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 5726)
+Started GET "/euclid/output?num1=29493145&num2=67808377" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"29493145", "num2"=>"67808377"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 5717)
+Started GET "/euclid/output?num1=1595&num2=2821" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1595", "num2"=>"2821"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 5673)
+Started GET "/euclid/output?num1=1189&num2=1333" for 127.0.0.1 at 2020-12-08 14:35:09 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"1189", "num2"=>"1333"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5669)
+Started GET "/euclid/output?num1=248050&num2=712166" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"248050", "num2"=>"712166"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5685)
+Started GET "/euclid/output?num1=5945&num2=9331" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5945", "num2"=>"9331"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.9ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 5685)
+Started GET "/euclid/output?num1=44774840&num2=118233752" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"44774840", "num2"=>"118233752"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 159)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5713)
+Started GET "/euclid/output?num1=2682790&num2=5421962" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"2682790", "num2"=>"5421962"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5701)
+Started GET "/euclid/output?num1=813078818618&num2=1540354465754" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"813078818618", "num2"=>"1540354465754"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 186)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5744)
+Started GET "/euclid/output?num1=199870900&num2=483084532" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"199870900", "num2"=>"483084532"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 5738)
+Started GET "/euclid/output?num1=733870808&num2=1397415032" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"733870808", "num2"=>"1397415032"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 5689)
+Started GET "/euclid/output?num1=689620&num2=1157044" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"689620", "num2"=>"1157044"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5690)
+Started GET "/euclid/output?num1=3446050&num2=7791686" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"3446050", "num2"=>"7791686"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5701)
+Started GET "/euclid/output?num1=13079&num2=17329" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"13079", "num2"=>"17329"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 5677)
+Started GET "/euclid/output?num1=7975&num2=19747" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"7975", "num2"=>"19747"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5673)
+Started GET "/euclid/output?num1=5&num2=7" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"5", "num2"=>"7"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.1ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5657)
+Started GET "/euclid/output?num1=33273302975&num2=137904892489" for 127.0.0.1 at 2020-12-08 14:35:10 +0300
+Processing by EuclidController#output as HTML
+  Parameters: {"num1"=>"33273302975", "num2"=>"137904892489"}
+  Rendering euclid/output.html.erb within layouts/application
+  Rendered euclid/output.html.erb within layouts/application (Duration: 0.2ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 5745)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m

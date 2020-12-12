@@ -26,6 +26,6 @@ class EuclidControllerTest < ActionDispatch::IntegrationTest
 
   test 'should get incorrect data' do
     get euclid_output_url, params: {num1: 'NaN', num2: 325}
-    assert_equal assigns[:resultgcf], 'Incorrect data'
+    assert_nil assigns[:resultgcf]
   end
 end

@@ -15,7 +15,7 @@ class TestThis < Minitest::Test
 
   def test_second
     tan = ->(x) { Math.tan(x + 1) / (x + 1) }
-    result = do_it(10_000, 2, 1, tan)
+    result = do_it(10_000, 2, 1, &tan)
     puts
     puts result
     puts(-0.376)

@@ -4128,3 +4128,77 @@ Processing by EuclidController#output as JSON
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 456)
 
 
+Started GET "/" for 127.0.0.1 at 2020-12-08 14:38:35 +0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered euclid/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 5131)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 7018)
+
+
+Started GET "/euclid/output.json?num1=35&num2=21" for 127.0.0.1 at 2020-12-08 14:38:36 +0300
+Processing by EuclidController#output as JSON
+  Parameters: {"num1"=>"35", "num2"=>"21"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 462)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-08 14:38:39 +0300
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered euclid/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2900)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3252)
+
+
+Started GET "/euclid/output.json?num1=&num2=" for 127.0.0.1 at 2020-12-08 14:38:39 +0300
+Processing by EuclidController#output as JSON
+  Parameters: {"num1"=>"", "num2"=>""}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 433)
+
+
+Started GET "/euclid/index?commit=Return+to+start+page" for 127.0.0.1 at 2020-12-08 14:39:05 +0300
+Processing by EuclidController#index as HTML
+  Parameters: {"commit"=>"Return to start page"}
+  Rendering euclid/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered euclid/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2883)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3380)
+
+
+Started GET "/euclid/output.json?num1=35&num2=21" for 127.0.0.1 at 2020-12-08 14:39:10 +0300
+Processing by EuclidController#output as JSON
+  Parameters: {"num1"=>"35", "num2"=>"21"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 494)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-12 13:54:33 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered euclid/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 5131)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 7018)
+
+
+Started GET "/euclid/output.json?num1=35&num2=21" for 127.0.0.1 at 2020-12-12 13:54:40 +0300
+Processing by EuclidController#output as JSON
+  Parameters: {"num1"=>"35", "num2"=>"21"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 474)
+
+
+Started GET "/euclid/output.json?num1=40&num2=21" for 127.0.0.1 at 2020-12-12 13:54:45 +0300
+Processing by EuclidController#output as JSON
+  Parameters: {"num1"=>"40", "num2"=>"21"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 447)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-12 14:08:30 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EuclidController#index as HTML
+  Rendering euclid/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered euclid/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 5116)
+Completed 200 OK in 26ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 7303)
+
+
