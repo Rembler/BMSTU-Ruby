@@ -1,6 +1,6 @@
 <%= render 'head' %>
 <%= form_with(model: @task, local: true, html: { class: "reg_form", autocomplete: "off" }) do |form| %>
-  <div class="error_div">
+  <div class="error_div edit_error">
     <% if @task.errors.any? %>
       <div id="error_explanation">
         <h2>Не удалось создать TODO</h2>
@@ -20,7 +20,7 @@
       </div>
     <% end %>
   </div>
-  <div class="signup_div">
+  <div class="signup_div get_info_div">
       <div class="field">
         <%= form.text_field :title, placeholder: "Что надо сделать?" %>
       </div>

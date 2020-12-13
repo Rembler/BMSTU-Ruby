@@ -1,7 +1,7 @@
 <%= render 'todoer/head' %>
 
 <%= form_with(model: @user, local: true, html: { class: "reg_form", autocomplete: "off" }) do |form| %>
-  <div class="error_div">
+  <div class="error_div edit_error">
     <% if @user.errors.any? %>
       <div id="error_explanation">
         <h2>Не удалось обновить данные</h2>
@@ -29,26 +29,30 @@
       </div>
     <% end %>
   </div>
-  <div class="signup_div">
+  <div class="get_info_div edit_user_info_div">
     <p id="notice"><%= notice %></p>
     <div class="field">
       <%#= form.label :name %>
-      <%= form.text_field :name, placeholder: "Имя" %>
+      <%= form.text_field :name, placeholder: "Имя", class: "edit_input" %>
     </div>
 
     <div class="field">
       <%#= form.label :email %>
-      <%= form.text_field :email, placeholder: "Электронная почта" %>
+      <%= form.text_field :email, placeholder: "Электронная почта", class: "edit_input" %>
     </div>
 
     <div class="field">
       <%#= form.label :password %>
-      <%= form.password_field :password, placeholder: "Пароль" %>
+      <%= form.password_field :password, placeholder: "Пароль", class: "edit_input" %>
     </div>
 
     <div class="field">
       <%#= form.label :password_confirmation %>
-      <%= form.password_field :password_confirmation, placeholder: "Повторите пароль" %>
+      <%= form.password_field :password_confirmation, placeholder: "Повторите пароль", class: "edit_input" %>
+    </div>
+
+    <div class="field">
+      <%= form.file_field :avatar %>
     </div>
 
     <div class="actions">

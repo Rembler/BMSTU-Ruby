@@ -22,5 +22,6 @@ Rails.application.routes.draw do
   patch 'update', to: 'todoer#update'
   get 'update', to: 'todoer#edit'
   get 'colleague', to: 'colleagues#colleague'
+  get 'info', to: 'colleagues#info'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

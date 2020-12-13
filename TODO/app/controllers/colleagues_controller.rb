@@ -8,6 +8,8 @@ class ColleaguesController < ApplicationController
     all_tasks
   end
 
+  def info; end
+
   private
 
   def all_tasks

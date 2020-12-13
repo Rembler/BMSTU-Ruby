@@ -1,5 +1,5 @@
 <%= form_with(model: @user, local: true, html: { class: "reg_form", autocomplete: "off" }) do |form| %>
-  <div class="error_div">
+  <div class="error_div reg_error">
     <% if @user.errors.any? %>
       <div id="error_explanation">
         <h2>Не удалось зарегистрироваться</h2>
@@ -27,7 +27,7 @@
       </div>
     <% end %>
   </div>
-  <div class="signup_div">
+  <div class="signup_div get_info_div">
     <div class="field">
       <%#= form.label :name %>
       <%= form.text_field :name, placeholder: "Имя" %>

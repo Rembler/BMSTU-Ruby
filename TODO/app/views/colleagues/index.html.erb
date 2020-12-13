@@ -1,24 +1,31 @@
 <%= render 'todoer/head' %>
 <div id="list_of_coll">
-  <% count = 0 %>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
   <% @colleagues.each do |colleague| %>
-    <% if count.zero? %>
-      <div class="row">
-    <% end %>
-    <div class="col-4">
-      <div class="card">
-        <div class="card-body">
-          <a href="<%= colleague_path(params: { id: colleague.id }) %>">
+      <div class="card container">
+        <a href="<%= colleague_path(params: { id: colleague.id }) %>" class="user_link">
+        <div class=" big_link row">
+
+          <div class="col-3 mini_avatar_store">
+            <% if colleague.avatar.file.nil? %>
+              <img id="mini_avatar" src="<%= image_path('none.jpg') %>">
+            <% else %>
+              <%= image_tag colleague.avatar.url, id: "mini_avatar" %>
+            <% end %>
+          </div>
+          <div class="col-1"></div>
+        <div class="card-body col-8 name_col">
+
             <h4 class="card-title trash_can_title coll_title"><%= colleague.name %></h4>
-          </a>
+
         </div>
+
+        </div>
+        </a>
       </div>
-    </div>
-    <% if count == 2 %>
-      <% count = 0 %>
-      </div>
-    <% else %>
-      <% count += 1 %>
-    <% end %>
   <% end %>
+    </div>
+  </div>
 </div>
