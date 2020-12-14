@@ -57,9 +57,10 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.json
   def destroy
+    Task.where(owner: @user.id).destroy_all
     @user.destroy
     respond_to do |format|
-      format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
+      format.html { redirect_to login_path, notice: 'Аккаунт удален' }
       format.json { head :no_content }
     end
   end

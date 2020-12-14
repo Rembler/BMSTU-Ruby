@@ -7,9 +7,9 @@ one:
   is_private: false
   group: MyString
 
-two:
-  owner: 1
-  title: MyString
-  content: MyText
-  is_private: false
-  group: MyString
+#two:
+#  owner: 1
+#  title: MyString
+#  content: MyText
+#  is_private: false
+#  group: MyString

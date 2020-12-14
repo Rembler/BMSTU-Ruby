@@ -28,7 +28,7 @@ class TodoerController < ApplicationController
   def destroy
     @task.destroy
     respond_to do |format|
-      format.html { redirect_to root_path }
+      format.html { redirect_to trash_can_path }
       format.js { render 'to_trash' }
     end
   end
@@ -36,7 +36,7 @@ class TodoerController < ApplicationController
   def clear_trash
     Task.where(is_in_trash: true).destroy_all
     respond_to do |format|
-      format.html { redirect_to trash_can_path, notice: "Корзина очищена!" }
+      format.html { redirect_to trash_can_path, notice: 'Корзина очищена!' }
       format.js
     end
   end
@@ -49,13 +49,12 @@ class TodoerController < ApplicationController
     end
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     # if Task.find(params[:id]).update(task_params)
     if @task.update(task_params)
-      redirect_to root_path, notice: "TODO успешно обновлен!"
+      redirect_to root_path, notice: 'TODO успешно обновлен!'
     else
       render 'todoer/edit'
     end

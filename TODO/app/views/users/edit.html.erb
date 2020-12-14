@@ -18,6 +18,8 @@
               <% message = "Пароли не совпадают" %>
             <% when "Email has already been taken" %>
               <% message = "Указанный адрес электронной почты уже зарегистрирован" %>
+            <% when "Password is too short (minimum is 8 characters)" %>
+              <% message = "Пароль не может быть короче 8 символов" %>
             <% else %>
               <% message = nil %>
             <% end %>
@@ -59,11 +61,7 @@
       <%= form.submit "Обновить данные" %>
     </div>
 <% end %>
+<div id="space"></div>
+<%= link_to 'Удалить аккаунт', user_path(current_user), method: :delete, data: { confirm: 'Вы точно хотите удалить свой аккаунт?' } %>
 
-<%#= link_to 'У меня уже есть аккаунт', login_path %>
 </div>
-
-<%#= render 'form', user: @user %>
-
-<!--<%#= link_to 'Show', @user %> |-->
-<%#= link_to 'Back', root_path %>

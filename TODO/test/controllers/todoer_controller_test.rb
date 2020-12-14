@@ -1,9 +1,9 @@
 require 'test_helper'
 
 class TodoerControllerTest < ActionDispatch::IntegrationTest
-  test "should get index" do
-    get todoer_index_url
-    assert_response :success
+  test 'redirect to login' do
+    get root_path
+    assert_response :redirect
+    assert_redirected_to login_path
   end
-
 end

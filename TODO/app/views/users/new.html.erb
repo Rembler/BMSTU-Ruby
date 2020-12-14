@@ -6,8 +6,8 @@
         <ul>
           <% @user.errors.full_messages.each do |message| %>
             <% case message %>
-            <% when "Password can't be blank" %>
-              <% message = "Введите пароль" %>
+            <% when "Password is too short (minimum is 8 characters)" %>
+              <% message = "Пароль не может быть короче 8 символов" %>
             <% when "Name can't be blank" %>
               <% message = "Введите имя" %>
             <% when "Email is invalid" %>

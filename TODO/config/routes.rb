@@ -23,5 +23,6 @@ Rails.application.routes.draw do
   get 'update', to: 'todoer#edit'
   get 'colleague', to: 'colleagues#colleague'
   get 'info', to: 'colleagues#info'
+  get 'not_found', to: 'colleagues#not_found'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
